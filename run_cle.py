@@ -1,7 +1,5 @@
 import sys
 # sys.path.append('<path_to_python3.6_installation>/python3.6/site-packages/aimet_common/x86_64-linux-gnu')
-sys.path.append('/home/rafal/.local/lib/python3.6/site-packages/aimet_common/x86_64-linux-gnu')
-
 import tensorflow as tf
 from aimet_common.utils import AimetLogger
 from aimet_tensorflow.cross_layer_equalization import equalize_model
